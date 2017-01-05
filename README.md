@@ -42,7 +42,7 @@ To have a Virtual Machine/Container template for future projects
  * You can start a suspended VM or destroyed VM with another run of `vagrant up`
  * `vagrant reload` restarts the VM, and if you changed the `Vagrantfile`, the VM will be reprovisioned
 7. Say you want to access your VM from another machine on your LAN, such as another computer with an SSH client:
- * SSH into the VM with `vagrant ssh` like in Step 5
+ * SSH into the VM with `vagrant ssh`
  * Run `ifconfig` in the VM and find out what the hostname/ipaddr is of the VM
  * On your remote computer, ssh to `vagrant@<thehostnameOrIPaddrYouFound>`, example `vagrant@198.162.0.100`
  * `vagrant` is the default username, `vagrant` is its password
